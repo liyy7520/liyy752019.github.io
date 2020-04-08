@@ -5,7 +5,8 @@ install:
   - npm install
 
 script:
-  - hexo g
+  - hexo clean
+  - hexo generate
 
 after_script:
   - cd ./public
