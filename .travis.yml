@@ -22,4 +22,4 @@ branches:
     - dev
 env:
  global:
-   - GH_REF: github.com/liyy7520/liyy752019.github.io
+   - GH_REF: git@github.com:liyy7520/liyy752019.github.io.git
