@@ -22,12 +22,12 @@ before_install:
     - npm install hexo-cli -g
 
 install:
+    - npm install hexo-cli -g
     - npm install
 
 script:
   - hexo clean
   - hexo generate -d
-  - hexo deploy
 
 after_script:
   - cd ./public
