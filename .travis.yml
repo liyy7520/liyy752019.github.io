@@ -26,8 +26,7 @@ install:
 
 script:
   - hexo clean
-  - hexo generate
-  - echo ${ENV_TEST}
+  - hexo generate -d
   - hexo deploy
 
 after_script:
